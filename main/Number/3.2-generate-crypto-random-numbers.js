@@ -6,7 +6,7 @@
 {
   let randomArray = new Uint32Array(1);
   window.crypto.getRandomValues(randomArray);
-  let normalizedRandom = randomArray[0] / 4294967295; // 4294967295 — максимальное значение Uint32
+  let normalizedRandom = randomArray[0] / 4294967295+1; // 4294967295 — максимальное значение Uint32
   let rangeMin = 5;
   let rangeMax = 200;
   // eslint-disable-next-line no-unused-vars
