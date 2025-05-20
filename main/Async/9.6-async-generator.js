@@ -18,6 +18,3 @@
   const iterator = generateAsyncValues();
   let value = iterator.next().then((res) => console.log(res.value));
 }
-
-let a = getRandomWebIntegers(1000);
-console.log(a.next().then((res) => console.log(res.value)));
