@@ -1,3 +1,4 @@
+// @jest-environment node
 import { factorialize } from "./10.7-writing-unit-tests.js";
 
 describe("factorialize() function tests", () => {
