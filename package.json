@@ -20,6 +20,9 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "formidable": "^3.5.4",
     "node-fetch": "^3.3.2"
   }
 }
